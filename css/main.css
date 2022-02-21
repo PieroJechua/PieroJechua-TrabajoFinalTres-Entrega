@@ -359,7 +359,9 @@ form {
   .slidebar h4 {
     text-align: start; }
   .slidebar p {
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+  .menu-conocenos {
+    display: none; } }
 
 /*-------------------- PANTALLA MEDIANA ---------------------*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -408,7 +410,9 @@ form {
   .slidebar h4 {
     text-align: start; }
   .slidebar p {
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+  .menu-conocenos {
+    display: none; } }
 
 /*----------- MAPAS ------------*/
 /*----------- MIXIN ------------*/

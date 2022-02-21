@@ -1,0 +1,54 @@
+/*-------------------- ESTILOS DEL MAIN ---------------------*/
+
+@import "../base/mapas";
+@import "../base/mixin";
+@import "../base/extends";
+
+.main{
+    background-color: map-get($map:$coloresFondos, $key:color-secundario);
+
+    h4{
+        padding: 1.5em 1.5em 0em 1.5em;
+    }
+}
+
+.main-razones{
+    img{
+        width:30%;
+        margin:1em;
+    }
+}
+
+
+/*-------------------- ESTILOS DEL FAQ ---------------------*/
+
+.FAQ{
+    background-color: map-get($map:$coloresFondos, $key:color-secundario);
+    margin:5em 0em 5em 0em;
+}
+
+.main-FAQ{
+    h5{
+        padding:1.5em 1.5em 0em 1.5em;
+    }
+
+    img{
+        width:5%;
+        margin: 0em 1em 0em 1em;
+        @include moneda-rotar(rotar);
+    }
+
+    @keyframes rotar{
+        from{
+            @include animaciones (rotatey(0));
+        }
+
+        to{
+            @include animaciones (rotatey(360deg));
+        }
+    }
+
+    p{
+        @extend %margen;
+    }
+}

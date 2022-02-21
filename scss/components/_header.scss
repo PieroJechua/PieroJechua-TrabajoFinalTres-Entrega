@@ -1,0 +1,23 @@
+
+/*-------------------- ESTILOS DEL HEADER ---------------------*/
+@import "../base/mapas";
+@import "../base/mixin";
+@import "../base/extends";
+
+header{
+    .header-h1{
+        margin-top: 2em;
+        font-size:4em;
+        color: map-get($map: $coloresLetras, $key:color-secundario);
+    }
+    .header-slogan{
+        margin-bottom: 0em 0.3em 0em 0.3em;
+        font-size: 1.1em;
+        color: map-get($map: $coloresLetras, $key:color-secundario);
+    }
+}
+
+.header-background{
+    background-image: url(https://creators-images.vice.com/content-images/article/el-azul-es-el-color-favorito-de-la-web/05facde4e74c9e9548bffff851e17775.jpg?crop=1xw:0.6666666666666666xh);
+    background-size:cover;
+}

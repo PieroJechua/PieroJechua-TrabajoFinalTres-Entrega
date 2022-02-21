@@ -1,0 +1,15 @@
+/*-------------------- ESTILOS DEL SECTION ---------------------*/
+@import "../base/mapas";
+@import "../base/mixin";
+@import "../base/extends";
+
+section{
+
+    h3{
+        @extend %margen;
+    }
+    p{
+        @extend %margen;
+        text-align: justify;
+    }
+}
